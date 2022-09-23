@@ -1,0 +1,21 @@
+<!--<ng-container *ngIf="flag"> <p>primero works!</p></ng-container>
+<button id="btn">Click</button>
+
+<ng-container *ngFor="let pais of paises">
+    <span>id: <h3>{{pais.id}}</h3></span>
+    <span>Pais: <p>{{pais.nombre}}</p></span> 
+</ng-container>
+<br>
+<ng-container *ngFor="let item of platillo">
+    <div [ngSwitch]="item.pais">
+        <span *ngSwitchCase="PAISES.MEXICO"> Mexico {{item.platillo}}</span>
+        <span *ngSwitchCase="PAISES.USA"> USA {{item.platillo}}</span>
+        <span *ngSwitchCase="PAISES.COLOMBIA"> Colombia {{item.platillo}} </span>
+        <span *ngSwitchDefault=""></span>
+    </div>
+</ng-container>-->
+
+<h1 [color] = "'red'" [size]="'30px'" [fontStyle] ="'italic'" [dynamicColor]="'blue'">Lo que sea</h1>
+<h1 [color] = "'blue'" [size]="'10px'" [fontStyle] ="'arial'">Lo que sea dos</h1>
+
+<h1 id="texto" #texto>Cualquier Texto</h1>
